@@ -16,6 +16,7 @@
 		C75D5010257809EF00092869 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75D500F257809EF00092869 /* Preview Assets.xcassets */; };
 		C75D5013257809EF00092869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75D5011257809EF00092869 /* LaunchScreen.storyboard */; };
 		C75D501C257812CF00092869 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D501B257812CF00092869 /* NetworkManager.swift */; };
+		C7B44D2B257AAD5900A9A497 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B44D2A257AAD5900A9A497 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C75D5012257809EF00092869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C75D5014257809EF00092869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C75D501B257812CF00092869 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C7B44D2A257AAD5900A9A497 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				C75D500A257809EC00092869 /* ContentView.swift */,
 				C7596E8F2579622700E39B52 /* DetailView.swift */,
+				C7B44D2A257AAD5900A9A497 /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				C75D5007257809EC00092869 /* AppDelegate.swift in Sources */,
 				C75D5009257809EC00092869 /* SceneDelegate.swift in Sources */,
 				C75D500B257809EC00092869 /* ContentView.swift in Sources */,
+				C7B44D2B257AAD5900A9A497 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
